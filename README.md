@@ -20,7 +20,7 @@ The following Python libraries are required (can be installed using `sudo pip in
 
 `scipy` - for simulation / numerical integration (RK45) and trim condition optimization 
 
-`matplotlib` - for animation / plotting (requires `ffmpeg` for .mp4 output or `imagemagick` for .gif)
+`matplotlib` - for animation / plotting (requires `ffmpeg` (`sudo apt install ffmpeg`) for .mp4 output or `imagemagick` for .gif (`sudo apt-get install imagemagick`))
 
 `slycot` - for control design (not needed for simulation)
 

@@ -21,7 +21,8 @@ from aerobench.util import get_state_names, StateIndex, get_script_path
 def init_plot():
     'initialize plotting style'
 
-    matplotlib.use('TkAgg') # set backend
+    # matplotlib.use('TkAgg') # set backend
+    matplotlib.use('Agg')   # non-interactive backend (doesn't require GUI support)
 
     parent = get_script_path(__file__)
     p = os.path.join(parent, 'bak_matplotlib.mlpstyle')
